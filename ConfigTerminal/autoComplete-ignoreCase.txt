@@ -1,0 +1,8 @@
+1 - Type in terminal nano ~/.inputrc
+2 - Paste the following on separate lines
+
+set completion-ignore-case on
+set show-all-if-ambiguous on
+TAB: menu-complete
+
+3 - Hit Control+O to save changes to .inputrc followed by control+X to quit

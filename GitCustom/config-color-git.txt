@@ -1,0 +1,20 @@
+Abra o terminal, copie todo o codigo abaixo e cole-o no terminal:
+
+
+git config --global color.ui true
+git config --global color.status.changed "red normal"
+git config --global color.status.untracked "red normal"
+git config --global color.status.added "green normal"
+git config --global color.status.updated "green normal"
+git config --global color.status.branch "cyan normal bold"
+git config --global color.status.header "white normal bold"
+
+
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.com checkout master
+git config --global alias.cov checkout desenvolvimento
+
+git config --global alias.cam=commit -a -m
+git config --global alias.cm=commit -m
+git config --global alias.br=branch
