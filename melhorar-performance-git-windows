@@ -1,0 +1,12 @@
+git config --global core.preloadindex true
+git config --global core.fscache true
+git config --global gc.auto 256
+
+
+Notas:
+
+core.preloadindex realiza operações do sistema de arquivos em paralelo para ocultar a latência (atualização: habilitada por padrão no Git 2.1)
+
+core.fscache corrige problemas de UAC para que você não precise executar o Git como administrador (atualização: habilitada por padrão no Git for Windows 2.8)
+
+gc.auto minimiza o número de arquivos em .git /
